@@ -1,0 +1,137 @@
+---
+title: "Three Intersections in Search of an Author"
+subtitle: "An intersectional analysis of school-to-work transitions of ethnic minority young women in Germany"
+title-block-banner: "#A31621"
+author:
+  - Mattia Guarnerio, 14350920
+format: html
+toc: true
+toc-location: body
+fig-cap-location: top
+number_sections: true
+embed_resources: true
+pdf: default
+docx: default
+# bibliography: 
+# csl: apa.csl
+editor: visual
+date: now
+eval: true
+echo: false
+warning: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Introduction
+
+???
+
+## 2. Research Questions
+
+???
+
+## 3. First steps
+
+### 3.1 ✧ Install packages and load the necessary libraries
+
+???
+
+```{r, include = FALSE}
+require(tidyverse) # Loading the "tidyverse" library for data wrangling, analysis, and visualization...
+require(haven) # ...and the "haven" library for loading the data sets in the .dta (STATA) format.
+require(occupar) # ???
+
+```
+
+### 3.2 ✧ Import data
+
+???
+
+```{r, include = FALSE}
+# I avoid setting the working directory inside this chunk, as this would bind every user to change the directory path when executing the code. ???
+
+d <- haven::read_stata("C:/Users/Mattia aka Mario/Desktop/UvA/Second Year/Thesis (S. Steinmetz)/Data/CILS4EU-DE/Stata/w9_ym_ge_v7.0.0_rv.dta") # Importing ??? data, containing information regarding ???.
+```
+
+## 4. Tidying the Data
+
+According to Wickham, Çetinkaya-Rundel, and Grolemund [-@wickham_r_2023], to conduct our analyses and address our research question, we must organise the GLES 2009 in a consistent way, using a system called **tidy data**. To become tidy, data sets must align with four key interrelated principles:
+
+1.  Each type of case needs its own tibble.\
+2.  Each observation must have its own row\
+3.  Each variable must have its own column.\
+4.  Each value must have its own cell.\
+
+We start by applying the last three principles, spreading, separating, and gathering "untidy" variables in the GLES 2009 data sets. Then, we split types of cases in different tables, or tibbles. This is because of practical reasons, as we prefer to first operate on the least amount of tibbles.
+
+### 4.1 ✧ Tidying Wave 9 of CILS4EU-DE
+
+???
+
+### 4.2 ✧ Selecting the Target Population
+
+???
+
+## 5. Imputing Missing Data
+
+???
+
+### 5.1 ✧ Multivariate Imputation by Chained Equations (MICE)
+
+???
+
+### 5.2 ✧ Inspecting the Distribution of Original and Imputed Data
+
+???
+
+## 6. Preparing the Data
+
+???
+
+### 6.1 ✧ Converting ISCO-08 Codes to the ESEC 3-class Scheme
+
+???
+
+### 6.2 ✧ Recoding the Other Strata
+
+???
+
+### 6.3 ✧ Recoding the Dependent Variables
+
+???
+
+### 6.4 ✧ Defining the Intersectional Strata
+
+???
+
+## 7. Modelling the Data
+
+???
+
+### 7.1 ✧ The Baseline Intersectional Model
+
+???
+
+### 7.2 ✧ The Partially Adjusted Intersectional Model
+
+???
+
+### 7.3 ✧ Between-Stratum Variance: Testing for Significant Differences
+
+???
+
+## 8. Visualising the Data
+
+???
+
+## 9. Conclusions
+
+???
+
+## 10. References
+
+::: {#refs}
+:::
