@@ -46,5 +46,7 @@ Therefore, I avoided re-compiling it to abide by the interpretations and choices
 In any case, the script is very similar to the base BERT Fine-Tuning script, so you can refer to the latter as a solid ground for interpretation.
 If you are unsatisfied with this choice, please contact me as soon as possible so that I can show you how the script runs.
 
+4) The code exploiting BERTs cannot be ran without the very large .zip files that contain the models, which are available upon request.
+
 Best wishes,
 Mattia Guarnerio
